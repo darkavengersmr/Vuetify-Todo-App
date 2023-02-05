@@ -1,5 +1,5 @@
 <template>        
-    <div class="toolbar-title">Завершено {{ completedTasks }} из {{ tolalTasks }}</div>          
+    <div class="toolbar-title">Завершены {{ completedTasks }} из {{ tolalTasks }}</div>          
 </template>
 
 <script setup>

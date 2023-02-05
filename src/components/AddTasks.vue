@@ -9,8 +9,7 @@
 
     <v-dialog
       v-model="dialog"
-      persistent
-          
+      persistent          
     >           
       <v-card>
         <v-card-title class="text-h5">

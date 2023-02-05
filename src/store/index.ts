@@ -7,7 +7,8 @@ export default createStore({
   state: {
     tasks: mockTasks,
     theme: 'dark',
-    searchFilter: ''
+    searchFilter: '',
+    navigationMenuActive: false
   },
   getters: {
     totalTasks(state) {      
@@ -30,6 +31,9 @@ export default createStore({
     },
     setSearchFilter(state, searchInput: string) {      
       state.searchFilter = searchInput
+    },
+    setNavigationMenuActive(state, val) {      
+      state.navigationMenuActive = val
     }
   },
   actions: {

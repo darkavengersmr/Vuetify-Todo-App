@@ -29,18 +29,30 @@ export const mockTasks: ITask[] = [
         "userId": 1,
         "id": 5,
         "title": "Drawer для навигации (список, настройки, справка)",
-        "completed": false
+        "completed": true
     },
     {
         "userId": 1,
         "id": 6,
         "title": "Поиск/фильтрация",
-        "completed": false
+        "completed": true
     },
     {
         "userId": 1,
         "id": 7,
         "title": "Удаления задач",
+        "completed": true
+    },
+    {
+        "userId": 1,
+        "id": 8,
+        "title": "Отменить/повторить задачу",
+        "completed": false
+    },
+    {
+        "userId": 1,
+        "id": 9,
+        "title": "Редактирование задач",
         "completed": false
     },
 ]

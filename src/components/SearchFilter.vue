@@ -28,11 +28,12 @@ export default defineComponent({
 <style scoped>
 .input {
   position: fixed;
-  bottom: 20px;
-  left: 20px;  
+  bottom: 40px;
+  left: 40px;  
+  background-color: black;
 
-  margin: 20px 20px 20px 20px;  
-  font-size: 24px;
+  
+  font-size: 20px;
   border-color: white;
   border-style: solid;
   border-width: 1px; 

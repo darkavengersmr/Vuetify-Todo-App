@@ -1,8 +1,11 @@
-<template>
-      <AppBar title="Список дел" />      
+<template>  
+      <AppBar title="Мой список задач">
+        <TotalTasks />
+        <SetTheme />
+      </AppBar>
       <TasksList />
       <AddTask />
-      <SearchFilter />    
+      <SearchFilter />        
 </template>
   
 <script lang="ts">
@@ -11,6 +14,8 @@ import AppBar from "@/components/AppBar.vue";
 import TasksList from "@/components/TasksList.vue";
 import AddTask from "@/components/AddTasks.vue";
 import SearchFilter from "@/components/SearchFilter.vue";
+import SetTheme from '@/components/SetTheme.vue';
+import TotalTasks from '@/components/TotalTasks.vue';
 
 export default defineComponent({
   name: "HomeView",
@@ -18,7 +23,9 @@ export default defineComponent({
     AppBar,
     TasksList,
     AddTask,
-    SearchFilter
+    SearchFilter,
+    SetTheme,
+    TotalTasks
   },
 });
 </script>
